@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "1071247204928",
+    "firebase_url": "https://oneway-500ad.firebaseio.com",
+    "project_id": "oneway-500ad",
+    "storage_bucket": "oneway-500ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071247204928:android:879fea0c04bd6944",
+        "android_client_info": {
+          "package_name": "com.example.eltimmy.oneway2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071247204928-rki6bq702pj9c31u43srstadj0e2368u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eltimmy.oneway2",
+            "certificate_hash": "7af1fb970eef70ca70a27bd72995fc607cd8e29d"
+          }
+        },
+        {
+          "client_id": "1071247204928-un1drfkp7j8poeds7gj0js2vuv7bu4d0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE3akz1RRHGyVToN6WdYpWQkvilj6lOfE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071247204928-e219brl02t1fg8chfe4msknh8rb1kc01.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.OneWay.Passenger-OneWay"
+              }
+            },
+            {
+              "client_id": "1071247204928-un1drfkp7j8poeds7gj0js2vuv7bu4d0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">OneWay2</string>
+
+
+    <string name="HintUserName">User Name</string>
+    <string name="HintPassword">Password</string>
+
+    <string name="SignInButton">Sign In</string>
+    <string name="SignOutButton">Sign Up</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Map</string>
+
+</resources>

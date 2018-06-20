@@ -1,0 +1,80 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.eltimmy.oneway2.MapsActivity2">
+    </fragment>
+
+
+    <Button
+        android:id="@+id/Navigation_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="26dp"
+        android:text="Start Navigation"
+        android:onClick="StartNavigation"/>
+
+
+    <RelativeLayout
+        android:id="@+id/distance_layout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#3c5074"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/distance"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="4 meter"
+            android:textColor="#FFFFFF"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/duration_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/cardview_light_background"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/duration"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="4 meter"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        <ImageButton
+
+            android:onClick="close_navigation"
+            android:paddingEnd="10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/close"
+            android:background="@color/fui_transparent"/>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
